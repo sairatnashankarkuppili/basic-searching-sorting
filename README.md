@@ -39,3 +39,13 @@ Selection sort works by repeatedly selecting the smallest (or largest) element f
 3. Swap this smallest element with the first unsorted element.
 4. Repeat the process for the remaining unsorted portion of the list.
 5. Continue until the list is sorted
+
+### Insertion Sort
+
+Insertion sort builds the sorted list one element at a time. It takes each element from the unsorted portion and places it in the correct position within the sorted portion. It's more efficient for small data sets but less efficient for large ones.
+
+**Algorithm**
+1. Start with the second element in the list (assuming the first element is already sorted).
+2. Compare this element with the elements in the sorted portion and insert it in the correct position.
+3. Repeat the process for all the remaining elements in the unsorted portion.
+4. The sorted portion grows with each insertion.
