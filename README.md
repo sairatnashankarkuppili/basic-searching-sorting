@@ -28,3 +28,14 @@ Bubble sort is one of the simplest sorting algorithms, but it's also one of the 
 - After each pass through the list, the largest element "bubbles up" to the end.
 - Repeat the process for the remaining unsorted portion of the list.
 - Stop when no more swaps are needed
+
+### Selection Sort
+
+Selection sort works by repeatedly selecting the smallest (or largest) element from the unsorted portion of the list and swapping it with the first unsorted element. It improves over bubble sort by reducing the number of swaps.
+
+**Algorithm**
+1. Start with the entire list.
+2. Find the smallest element in the unsorted part of the list.
+3. Swap this smallest element with the first unsorted element.
+4. Repeat the process for the remaining unsorted portion of the list.
+5. Continue until the list is sorted
