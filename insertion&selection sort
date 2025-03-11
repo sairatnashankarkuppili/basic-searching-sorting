@@ -1,0 +1,32 @@
+Selection Sort Pseudocode
+
+START 
+    INPUT array A of size n
+    FOR i FROM 0 TO n DO
+        SET minIndex = i
+        FOR j FROM i+1 TO n DO
+            IF A[j] < A[minIndex] THEN
+                SET minIndex = j
+            END IF
+        END FOR
+        SWAP A[i] WITH A[minIndex]
+    END FOR
+    OUTPUT sorted array A
+END 
+
+
+Insertion Sort Pseudocode
+START 
+    INPUT array A of size n
+    FOR i FROM 1 TO n DO
+        SET key = A[i]
+        SET j = i - 1
+        WHILE j >= 0 AND A[j] > key DO
+            SET A[j+1] = A[j] 
+            SET j = j - 1
+        END WHILE
+        SET A[j+1] = key  
+    END FOR
+    OUTPUT sorted array A
+END 
+
